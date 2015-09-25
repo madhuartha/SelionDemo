@@ -1,0 +1,30 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+pageTitle:
+  US: "Message Strings"
+elements:
+  blankEmailErrLabel:
+    locators:
+      US: "Please enter your email"
+  invalidEmailErrLabel:
+    locators:
+      US: "Sorry, Google doesn't recognize that email."
+  blankPasswordErrLabel:
+    locators:
+      US: "Please enter your password."
+  invalidPasswordErrLabel:
+    locators:
+      US: "The email and password you entered don't match."
+  emailSubjectLabel:
+    locators:
+      US: "This is a test email"
+  emailMessageBodyLabel:
+    locators:
+      US: "Greeting from automaton bot"
+  searchTextOnSentMailClickLabel:
+    locators:
+      US: "in:sent"
+  sentMessageBodyLabel:
+    locators:
+      US: "message has been sent"
+pageValidators: []
+defaultLocale: "US"

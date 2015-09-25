@@ -1,0 +1,56 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+pageTitle:
+  US: "Gmail Page"
+elements:
+  sentEmailContainer:
+    locators:
+      US: "css=.ae4.UI .Cp .F.cf.zt .zA.yO"
+    containerElements:
+      emailLink:
+        locators:
+          US: "css=.yY"
+  searchButton:
+    locators:
+      US: ".//*[@id='gbqfb']|id=gbqfb"
+  composeButton:
+    locators:
+      US: "css=.T-I.J-J5-Ji.T-I-KE.L3"
+  sendButton:
+    locators:
+      US: "css=.T-I.J-J5-Ji.aoO.T-I-atl.L3"
+  reciepientTextField:
+    locators:
+      US: "css=.oL.aDm"
+  toTextField:
+    locators:
+      US: "css=[name=to]"
+  subjectTextField:
+    locators:
+      US: "css=.aoT"
+  messageTextField:
+    locators:
+      US: "css=.Am.Al.editable.LW-avf"
+  emailSearchTextField:
+    locators:
+      US: "css=#gbqfq"
+  inBoxLink:
+    locators:
+      US: "css=a[href*='/mail/#inbox']"
+  sentMailLink:
+    locators:
+      US: "css=a[href*='#sent']"
+  msgSentLabel:
+    locators:
+      US: "css=.nH .b8.UC .J-J5-Ji .vh"
+  mailSubjectLabel:
+    locators:
+      US: "css=.ha .hP"
+  inboxEmailContainer:
+    locators:
+      US: "css=.aDP .ae4.aDM .Cp .F.cf.zt .zA"
+    containerElements:
+      emailLink:
+        locators:
+          US: "css=.yX.xY"
+pageValidators: []
+defaultLocale: "US"

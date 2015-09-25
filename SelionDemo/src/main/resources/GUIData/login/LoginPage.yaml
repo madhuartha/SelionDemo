@@ -1,0 +1,27 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+pageTitle:
+  US: "Login Page"
+elements:
+  emailTextField:
+    locators:
+      US: ".//*[@id='Email']|id=Email"
+  passwrdTextField:
+    locators:
+      US: ".//*[@id='Passwd']|id=Passwd"
+  signedInCheckBox:
+    locators:
+      US: ".//*[@id='PersistentCookie']|id=PersistentCookie"
+  nextButton:
+    locators:
+      US: ".//*[@id='next']|id=next"
+  signInButton:
+    locators:
+      US: ".//*[@id='signIn']|id=signIn"
+  blankInvalidEmailErrLabel:
+    locators:
+      US: ".//*[@id='errormsg_0_Email']|id=errormsg_0_Email"
+  blankInvalidPasswordErrLabel:
+    locators:
+      US: ".//*[@id='errormsg_0_Passwd']|id=errormsg_0_Passwd"
+pageValidators: []
+defaultLocale: "US"
